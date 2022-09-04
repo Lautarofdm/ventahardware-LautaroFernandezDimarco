@@ -1,3 +1,4 @@
+/* todas las paginas */
 *{
     font-size: large;
 }
@@ -5,26 +6,42 @@
     background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89),rgba(0, 0, 0, 0.568));
 }
 
+
+
+body{
+    background-image: url(../img/fondo);
+}
+.banner1{
+    padding-top: 2px;
+}
+.carrito{
+    display: flex;
+    width:  35px;
+    height: 30px;
+margin: 5px;
+}
+/* index, tienda y productos*/
+.colorcard{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
+}
 .cardsstyle{
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
-
-body{
-    background-image: url(../img/fondo);
-}
-
-.colorcard{
-    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
-}
-.banner1{
-    padding-top: 2px;
-}
 .mainnosotros{
     padding: 25px;
 }
+.vermas{
+    /* probe con el bootstraap y con flex y no encontre como centralizarlo */
+}
+/* nosotros */
 .almacen{
+    margin: 5px;
     width: 400px;
-    height: 500px;
+    height: 50vh;
+}
+.ubicacion{
+    margin: 5px 0px 5px 0px;
+padding: 5px;
 }
