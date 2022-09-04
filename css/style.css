@@ -1,0 +1,30 @@
+*{
+    font-size: large;
+}
+.fondologo{
+    background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89),rgba(0, 0, 0, 0.568));
+}
+
+.cardsstyle{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    background-image: url(../img/fondo);
+}
+
+.colorcard{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
+}
+.banner1{
+    padding-top: 2px;
+}
+.mainnosotros{
+    padding: 25px;
+}
+.almacen{
+    width: 400px;
+    height: 500px;
+}
